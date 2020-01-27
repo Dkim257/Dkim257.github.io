@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Sun Kim
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="searchBar">
+        <div class="searchBarTitle">
+            <h4>Artist Directory</h4>
+        </div>
+        <div class="searchBarContent">
+            <form>
+                <input></input>
+            </form>
+            <div id="addArtist">
+                    <button onclick="showAddArtistContent()">Add artist</button>
+            </div>
+        </div>
+    </div>
+    <div class="addArtistContent">
+        <ul>
+            <li>
+                <input id="artistName" type="text" name="artistName" value="Kevin Sigma"/>
+            </li>
+            <li>
+                <input id="aboutArtist" type="text" name="aboutArtist" value="Best in town  "/>
+            </li>
+            <li>
+                <input id="imageUrl" type="text" name="imageUrl" value="https://randomuser.me/api/portraits/med/men/55.jpg"/>
+            </li>
+            <li>
+                <button id="add" onclick="add()">Add</button>
+            </li>
+        </ul>
+    </div>
+    <div class="ArtistList">
+        
+    </div>
+
+</body>
+<script defer src="./myScript.js"></script>
+</html>
