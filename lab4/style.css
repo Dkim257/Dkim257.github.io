@@ -1,0 +1,97 @@
+body {
+	font-family: "Nunito", sans-serif;
+	padding: 40px;
+}
+.searchBar {
+	border: 0.5px solid rgb(197, 189, 189, 0.4);
+	margin: auto;
+	width: 50%;
+}
+.searchBarTitle {
+	padding: 10px;
+}
+.searchBarTitle h4 {
+	margin: 10px;
+}
+.searchBarContent {
+	margin: 20px;
+	margin-top: 0px;
+}
+.searchBarContent input {
+	width: 100%;
+}
+.searchBarContent form {
+	width: 80%;
+}
+.ArtistList {
+	border: 0.5px solid rgb(197, 189, 189, 0.4);
+	margin: auto;
+	width: 40%;
+}
+.eachArtist {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	border: 0.5px solid rgb(197, 189, 189, 0.4);
+}
+.eachArtist:hover {
+	background-color: antiquewhite;
+}
+.eachArtistImg {
+	margin: 8px;
+	border: 0.5px solid rgb(197, 189, 189, 0.4);
+}
+.eachArtistContent {
+	margin-top: 8px;
+}
+.eachArtistContent h5 {
+	margin: 0px;
+	font-size: 1.2em;
+	font-family: "Sofia";
+}
+.eachArtistContent p {
+	margin: 0px;
+	font-size: 0.8em;
+	color: grey;
+}
+.searchBarContent {
+	display: flex;
+}
+#addArtist {
+	margin-left: 10px;
+}
+#searchArtist {
+	margin-left: 5px;
+}
+.addArtistContent {
+	border: 0.5px solid rgb(197, 189, 189, 0.4);
+	margin: auto;
+	width: 40%;
+}
+ul {
+	list-style-type: none;
+}
+.addArtistContent {
+	display: none;
+}
+button {
+	height: 30px;
+	width: 80px;
+	border-radius: 8px;
+	background-color: #f44336;
+	color: white;
+}
+ul {
+	padding-inline-start: 0px;
+}
+ul li {
+	text-align: center;
+}
+.removeButton {
+	float: left;
+}
+input {
+	text-align: center;
+	color: grey;
+	border-radius: 4px;
+}
